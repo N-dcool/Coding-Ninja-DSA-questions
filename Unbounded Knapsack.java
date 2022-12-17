@@ -106,3 +106,30 @@ public class Solution {
         return prev[w];
     }
 }
+
+//SpaceOptimisation (1-D Array Space Optimised Approach):
+
+import java.util.* ;
+import java.io.*; 
+public class Solution {
+    public static int unboundedKnapsack(int n, int w, int[] profit, int[] weight) {
+        // Write your code here.
+        int[] prev = new int[w+1];
+        for(int j=1; j<=w; j++)
+            if(j>=weight[0])
+                prev[j] = profit[0]*(j/weight[0]);
+        for(int i=1; i<n; i++){
+            for(int j=1; j<=w; j++){
+                int notTake = prev[j];
+                int take = -100000;
+                if(j >= weight[i])
+                    take = profit[i] + prev[j-weight[i]];
+
+                prev[j] = Math.max(take, notTake);
+            }
+        }
+        
+        
+        return prev[w];
+    }
+}
