@@ -1,5 +1,5 @@
 # Coding-Ninja-DSA-questions
-<a href="https://github.com/Nareshchoudhary02"><img align="center" width="100%" src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="leetcode" border="0"></a>
+<a href="https://github.com/Nareshchoudhary02"><img align="center" width="100%" src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="coding Ninja img" border="0"></a>
 <h4 align="center"> 🧑🏻‍💻 JAVA </h4>
 
 ## 🤓 Author 
